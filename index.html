@@ -58,18 +58,34 @@
                 
             </ul>
         </div>
+<!--        每日打卡-->
+        <div class="services">
+            <div class="title"><span>每日打卡</span><!--a href="#">查看更多</a--></div>
+            <div class="list">
+                <ul>
+                    <li id="hssb">
+                        <p>核酸检测上报</p>
+                        <span>健康打卡，每日报平安</span>
+                    </li>
+                    <li id="dakajl">
+                        <p>打卡记录</p>
+                        <span>健康打卡，每日报平安</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <!-- 热门服务 -->
         <div class="services">
             <div class="title"><span>更多服务</span><!--a href="#">查看更多</a--></div>
             <div class="list">
                 <ul>
                     <li id="fanxiao">
-                        <p>退出登录</p>
-                        <span>重新进行统一身份认证</span>
+                        <p>核酸上报查询</p>
+                        <span>核酸上报查询管理员登陆</span>
                     </li>
                     <li id="daka">
-                        <p>信息上报</p>
-                        <span>健康打卡，每日报平安</span>
+                        <p>退出登录</p>
+                        <span>重新进行身份统一认证</span>
                     </li>
                 </ul>
             </div>
@@ -174,6 +190,12 @@
 
     
     }
+
+    var fanxiao1 = document.getElementById("hssb");
+    fanxiao1.addEventListener("click", gotodaka);
+
+    var daka1 = document.getElementById("dakajl");
+    daka1.addEventListener("click", gotodaka);
 
     var fanxiao = document.getElementById("fanxiao");
     fanxiao.addEventListener("click", gotofanxiao);
