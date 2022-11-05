@@ -1,18 +1,18 @@
 {
-  "total": 4,
+  "total": 0,
   "rows": [
-        {
+    {
       "id": 45787,
       "XTBHtext": "qa9o4sf77qb9",
       "nametext": "孙永健",
       "sextext": "gender",
       "studentnotext": "id",
       "phonetext": "phone",
-      "reasontext": "做核酸",
-      "destinationtext": "长江存储",
+      "reasontext": "面试",
+      "destinationtext": "中南电力设计院-[湖北省武汉市武昌区]",
       "academytext": "academy",
-      "outtimetext": "2022-09-21 06:59:02",
-      "backtimetext": "2022-09-21 23:58:01",
+      "outtimetext": "2022-10-15 06:59:02",
+      "backtimetext": "2022-05-15 23:58:01",
       "picturetext": "",
       "supporttext": "",
       "verifier1text": "审批通过",
